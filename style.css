@@ -1,0 +1,149 @@
+/* Reset default browser padding and font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fdf6f6;
+  color: #333;
+}
+
+header {
+  background-color: #ff80ab;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+.intro {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.wardrobe {
+  background: #fff0f6;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.clothing-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+button#addBtn {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #ff4081;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Popup Form Styling */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup.hidden {
+  display: none;
+}
+
+.form-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px #0003;
+}
+
+.form-box h3 {
+  margin-bottom: 1rem;
+}
+
+.form-box input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.form-box button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#submitBtn {
+  background-color: #4caf50;
+  color: white;
+}
+
+#closeBtn {
+  background-color: #f44336;
+  color: white;
+}
+
+.closet-section {
+  padding: 30px;
+  background-color: #fff9f0;
+  text-align: center;
+}
+
+.closet-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.clothing-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.clothing-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.clothing-item p {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+

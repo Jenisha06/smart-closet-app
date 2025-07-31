@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Closet App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>👗 Smart Closet</h1>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome, Jenisha!</h2>
+      <section class="closet-section">
+  <h2>My Closet</h2>
+  <div class="closet-grid">
+    <div class="clothing-item">
+      <img src="https://via.placeholder.com/150" alt="Shirt" />
+      <p>Blue Shirt</p>
+    </div>
+    <div class="clothing-item">
+      <img src="https://via.placeholder.com/150" alt="Pants" />
+      <p>Black Pants</p>
+    </div>
+    <div class="clothing-item">
+      <img src="https://via.placeholder.com/150" alt="Dress" />
+      <p>Red Dress</p>
+    </div>
+  </div>
+</section>
+
+      <p>Start organizing your closet smartly.</p>
+    </section>
+
+    <section class="wardrobe">
+      <h3>Your Wardrobe</h3>
+      <div class="clothing-grid">
+        <!-- We'll add clothing cards here later -->
+        <p class="placeholder">No clothes added yet 😔</p>
+      </div>
+      <button id="addBtn">+ Add New Outfit</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Smart Closet. All rights reserved.</p>
+  </footer>
+
+
+<!-- Outfit Form Modal -->
+<div id="popupForm" class="popup hidden">
+  <div class="form-box">
+    <h3>Add New Outfit</h3>
+    <label>Outfit Name:</label>
+    <input type="text" id="outfitName" placeholder="e.g., Blue Denim Jacket">
+
+    <label>Type:</label>
+    <input type="text" id="outfitType" placeholder="e.g., Casual">
+
+    <label>Tags / Color:</label>
+    <input type="text" id="outfitTags" placeholder="e.g., Blue, Winter">
+
+    <button id="submitBtn">Save Outfit</button>
+    <button id="closeBtn">Cancel</button>
+  </div>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
